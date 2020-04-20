@@ -15,7 +15,7 @@ go build -o ping main.go
 
 Square brackets([]) are flags and angle brackets(<>) are arguments to the executable
 
-** if running with 'sudo' keyword, MUST set the -root flag when executing
+** if running with 'sudo' keyword, MUST set the `-root` flag when executing
 
 ## Notes
 - Support for both IPv4 and IPv6 available
