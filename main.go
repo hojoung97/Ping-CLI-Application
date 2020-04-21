@@ -28,8 +28,7 @@ func main () {
 	interval := flag.Duration("i", time.Second, "interval between each echo request")
 	count := flag.Int("c", -1, "specified amount of echo requests before exiting")
 	packetSize := flag.Int("s", 56, "size of each packet in bytes")
-	root := flag.Bool("root", false, "whether given root privilege or not" +
-		"\nIf using with 'sudo' MUST set this flag")
+	root := flag.Bool("root", false, "whether given root privilege or not\nIf using with 'sudo' MUST set this flag")
 	help := flag.Bool("h", false, "print helpful usage statements")
 	flag.Parse()
 
